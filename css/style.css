@@ -1,0 +1,132 @@
+body
+{
+    font-family:  Arial;
+    font-size: 16px;
+    color: #1e5474;
+    background: #F7F7F7;
+    margin: 0;
+}
+
+header
+{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo a
+{
+    display: flex;
+    align-items: center;
+    padding: none;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header .logo a img
+{
+    padding: 20px;
+}
+
+header .menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 42px;
+}
+
+header .menu .nav
+{
+    display: flex;
+    gap: 16px;
+}
+
+header .menu #user a
+{
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+header .search
+{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 0;
+}
+
+header .search form
+{
+    display: flex;
+    width: 100%;
+}
+
+header .search input
+{
+    padding-left: 20px;
+    height: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    width: 100%;
+    min-width: 40px;
+}
+header .search button
+{
+    height: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+header .logo a
+{
+    text-decoration: none;
+}
+#container 
+    {
+        max-width: 1332px;
+        min-width: 120px;
+        height: auto;
+        margin: 0 auto;
+    }
+.container 
+    {
+        display: flex;
+        max-width: 1244px;
+        min-width: 120px;
+        height: auto;
+        margin: 0 auto;
+    }
+.vertical-hr
+{
+    width: 2px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+header #user a
+{
+    background: #1e5474;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+header #user a span
+{
+    color: white;
+    text-decoration: none;
+}
